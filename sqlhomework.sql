@@ -148,7 +148,7 @@ GROUP BY film.title
 ORDER BY COUNT(film.title)  desc;
 
 
--- 7f. Write a query to display how much business, in dollars, each store brought in. ??????????????????
+-- 7f. Write a query to display how much business, in dollars, each store brought in.
 SELECT store.store_id, SUM(amount) AS 'Revenue'
 FROM payment
 JOIN rental
